@@ -1,4 +1,4 @@
-extern crate dirs;
+extern crate dire;
 
 fn main() {
     let dirs = dirs::Directories::with_prefix("foobar", "Foobar").unwrap();
